@@ -1,0 +1,80 @@
+// import 
+@import "helpers/variables";
+@import "helpers/mixin";
+
+#pages {
+    margin-bottom: $margin-bottom-pages;
+    padding: $padding-pages;
+    overflow: $overflow-pages;
+    width: $width-pages;
+    background-color: $background-pages;
+    border: $border-pages;
+
+    // box 1 properties
+    .box-1 {
+        @include float($float-box-1, $width-box-1);
+        margin-right: $margin-right-box-1;
+
+        .box-1__title a {
+            letter-spacing: $letter-spacing-box-1__title;
+            text-decoration: $text-decoration-box-1__title;
+            font: {
+                size: $font-size-box-1__title;
+                weight: $font-weight-box-1__title;
+            }
+            color: $color-box-1__title;
+        }
+
+        .box-1__content {
+            line-height: $line-height-box-1;
+            .links {
+                color: $color-links;
+                &:hover {  
+                    text-decoration: $text-decoration-links;
+                }
+            }
+        }
+    }
+
+    .box-extend {
+        h2 {
+            font: {
+                size: $font-size-box-2-h2;
+                weight: $font-weight-box-2-h2;
+            }
+            color: $color-box-2-h2;
+        }
+
+        .box-2__list {
+            margin: $margin-box-2;
+            padding: $margin-box-2;
+            list-style: $list-type-box-2__list;
+            li {
+                padding: $padding-box-2__list-li;
+                display: $display-box-2-li;
+                border-top: $border-top-box-2__list-li;
+                a {
+                    color: $color-box-2-a;
+                    &:hover {
+                        text-decoration: $text-decoration-box-2-a;
+                    }
+                }
+            }
+            li:first-child {
+                border-top: $boder-top-box-2-first-child;
+            }
+        }
+    }
+
+    // box 2 properties
+    .box-2 {
+        @include float($float-box-2, $width-box-2);
+        @extend .box-extend ;
+    }
+
+    // box 3 properties
+    .box-3 {
+        @include float($float-box-3, $width-box-3);
+        @extend .box-extend ;
+    }
+}

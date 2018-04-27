@@ -1,0 +1,21 @@
+// import file variables
+@import "helpers/variables";
+
+#logo {
+    padding: $p-logo;
+    overflow: $o-logo;
+    .logo__title {
+        padding: $p-title;
+        text-align: $text-align-title;
+        text-transform: $text-transform-title;
+        font: {
+            size: $font-size-title;
+            weight: $font-weight-title;
+        }
+        color: $color-title; 
+    }
+    a {
+        text-decoration: $text-decoration-title;
+        color: $color-title-links;
+    }
+}

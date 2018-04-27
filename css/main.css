@@ -1,0 +1,174 @@
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background: #F1E9D4 url(../images/bg01.jpg) repeat;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10pt;
+  color: #747474; }
+
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+#logo {
+  padding: 3em 0em;
+  overflow: hidden; }
+  #logo .logo__title {
+    padding: 0;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 4em;
+    font-weight: 600;
+    color: #706C53; }
+  #logo a {
+    text-decoration: none;
+    color: #3C342E; }
+
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+#menu {
+  margin-bottom: 2em;
+  overflow: hidden;
+  height: 52px;
+  border-top: 1px solid #D7CFAD;
+  border-bottom: 1px solid #D7CFAD; }
+  #menu .menu__list {
+    overflow: hidden;
+    height: 52px;
+    list-style: none;
+    text-align: center; }
+    #menu .menu__list li {
+      display: inline-block; }
+      #menu .menu__list li .menu__list--link {
+        padding: 16px 30px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 300;
+        color: #706C53; }
+        #menu .menu__list li .menu__list--link:hover {
+          background-color: #D7CFAD; }
+      #menu .menu__list li .active {
+        background-color: #D7CFAD; }
+
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+#pages {
+  margin-bottom: 3em;
+  padding: 5em 50px;
+  overflow: hidden;
+  width: 1100px;
+  background-color: #fff;
+  border: 1px solid #D9D2A5; }
+  #pages .box-1 {
+    float: left;
+    width: 450px;
+    margin-right: 50px; }
+    #pages .box-1 .box-1__title a {
+      letter-spacing: -2px;
+      text-decoration: none;
+      font-size: 1.7em;
+      font-weight: 400;
+      color: #706C53; }
+    #pages .box-1 .box-1__content {
+      line-height: 180%; }
+      #pages .box-1 .box-1__content .links {
+        color: #706C53; }
+        #pages .box-1 .box-1__content .links:hover {
+          text-decoration: none; }
+  #pages .box-extend h2, #pages .box-2 h2, #pages .box-3 h2 {
+    font-size: 1.7em;
+    font-weight: 400;
+    color: #706C53; }
+  #pages .box-extend .box-2__list, #pages .box-2 .box-2__list, #pages .box-3 .box-2__list {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #pages .box-extend .box-2__list li, #pages .box-2 .box-2__list li, #pages .box-3 .box-2__list li {
+      padding: 15px 0px;
+      display: list-item;
+      border-top: 1px solid #E5E5E5; }
+      #pages .box-extend .box-2__list li a, #pages .box-2 .box-2__list li a, #pages .box-3 .box-2__list li a {
+        color: #747474; }
+        #pages .box-extend .box-2__list li a:hover, #pages .box-2 .box-2__list li a:hover, #pages .box-3 .box-2__list li a:hover {
+          text-decoration: none; }
+    #pages .box-extend .box-2__list li:first-child, #pages .box-2 .box-2__list li:first-child, #pages .box-3 .box-2__list li:first-child {
+      border-top: none; }
+  #pages .box-2 {
+    float: left;
+    width: 300px; }
+  #pages .box-3 {
+    float: right;
+    width: 250px; }
+
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+#footer {
+  overflow: hidden;
+  padding: 3em 0;
+  border-top: 1px solid #D9D2A5;
+  color: #7A7762; }
+  #footer p {
+    text-align: center; }
+    #footer p a {
+      color: #706C53; }
+      #footer p a:hover {
+        text-decoration: none; }

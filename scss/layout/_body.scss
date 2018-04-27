@@ -1,0 +1,7 @@
+// import scss
+@import "helpers/mixin";
+
+// properties tag
+body {
+    @include body_pages();
+}

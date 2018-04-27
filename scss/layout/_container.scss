@@ -1,0 +1,7 @@
+// import
+@import "helpers/variables";
+
+.container {
+    width: $w-container;
+    margin: $m-container;
+}

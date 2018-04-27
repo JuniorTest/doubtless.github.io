@@ -1,0 +1,112 @@
+/*
+Note: 
+    w: width
+    h: height
+    m: margin
+    p: padding
+    .....
+    create by chicken hero
+*/
+
+// variables for body on webpages
+$font-family: 'Open Sans', sans-serif;
+$font-size: 10pt;
+$background: #F1E9D4 url(../images/bg01.jpg) repeat; 
+$color: #747474;
+$m: 0;
+$p: 0;
+// end variables body
+
+// class container for webpages
+$w-container: 1200px;
+$m-container: 0 auto; 
+// end variables for class container
+
+// variables for logo, logo__title, link
+$o-logo: hidden;
+$p-logo: 3em 0em;
+$p-title: 0;
+$text-transform-title: lowercase;
+$font-size-title: 4em;
+$font-weight-title: 600;
+$color-title: #706C53;
+$text-align-title: center;
+$text-decoration-title: none;
+$color-title-links: #3C342E;
+// end variables for logo
+
+// variables for menu
+$overflow-menu: hidden;
+$height-menu: 52px;
+$margin-bottom-menu: 2em;
+$border-menu: 1px solid #D7CFAD;
+$list-type-menu__list: none;
+$text-align-menu__list: center;
+$display-li: inline-block;
+$background-a-hover: #D7CFAD;
+$text-decoration-a: none;
+$color-a: #706C53;
+$display-a: block;
+$padding-a: 16px 30px;
+$text-transform-a: uppercase;
+$font-size-a: 14px;
+$font-weight-a: 300;
+// enn variables for menu
+
+// variables for pages 
+$overflow-pages: hidden;
+$width-pages: 1100px;
+$margin-bottom-pages: 3em;
+$padding-pages: 5em 50px;
+$background-pages: #fff;
+$border-pages: 1px solid #D9D2A5;
+
+// box 1 in pages
+$float-box-1: left;
+$width-box-1: 450px;
+$margin-right-box-1: 50px;
+$text-decoration-box-1__title: none;
+$letter-spacing-box-1__title: -2px;
+$font-size-box-1__title: 1.7em;
+$font-weight-box-1__title: 400;
+$color-box-1__title: #706C53; 
+$line-height-box-1: 180%;
+
+// variables for links in pages 
+$color-links: #706C53;
+$text-decoration-links: none;
+// end varibales box 1
+
+// box 2 in pages 
+$float-box-2: left;
+$width-box-2: 300px;
+$margin-box-2: 0;
+$padding-box-2: 0;
+
+$padding-bottom-box-2-h2: 1.2em;
+$font-size-box-2-h2: 1.7em;
+$font-weight-box-2-h2: 400;
+$color-box-2-h2: #706C53;
+
+$display-box-2-li: list-item;
+$list-type-box-2__list: none;
+$padding-box-2__list-li: 15px 0px;
+$border-top-box-2__list-li: 1px solid #E5E5E5;
+$boder-top-box-2-first-child: none;
+
+$color-box-2-a: #747474;
+$text-decoration-box-2-a: none;
+// end box 2 variables
+
+// variables for box 3
+$float-box-3: right;
+$width-box-3: 250px;
+// end variables for pages
+
+// variables for footer 
+$overflow-footer: hidden;
+$padding-footer: 3em 0;
+$border-top-footer: 1px solid #D9D2A5;
+$color-footer: #7A7762;
+$text-align-footer: center; 
+// end variables for footer

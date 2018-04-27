@@ -1,0 +1,35 @@
+@import "helpers/variables";
+
+#menu {
+    margin-bottom: $margin-bottom-menu;
+    overflow: $overflow-menu;
+    height: $height-menu;
+    border-top: $border-menu;
+    border-bottom: $border-menu;
+    .menu__list {
+        overflow: $overflow-menu;
+        height: $height-menu;
+        list-style: $list-type-menu__list;
+        text-align: $text-align-menu__list;
+        li {
+            display: $display-li;
+            .menu__list--link {
+                padding: $padding-a;
+                display: $display-a;
+                text-decoration: $text-decoration-a;
+                text-transform: $text-transform-a;
+                font: {
+                    size: $font-size-a;
+                    weight: $font-weight-a;
+                }
+                color: $color-a;
+                &:hover {
+                    background-color: $background-a-hover; 
+                }
+            }
+            .active {
+                background-color: $background-a-hover;
+            }
+        }
+    }
+}

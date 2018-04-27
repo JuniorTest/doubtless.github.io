@@ -1,0 +1,21 @@
+
+// import file scss
+@import "variables";
+
+// mixin for body 
+@mixin body_pages() {
+    margin: $m;
+    padding: $p;
+    background: $background;
+    font: {
+        family: $font-family; 
+        size: $font-size;
+    }
+    color: $color;
+}
+
+// mixin for box
+@mixin float($float, $width) {
+    float: $float;
+    width: $width;
+}

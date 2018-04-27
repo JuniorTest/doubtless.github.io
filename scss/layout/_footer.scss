@@ -1,0 +1,19 @@
+// import
+@import "helpers/variables";
+
+#footer {
+    overflow: $overflow-footer;
+    padding: $padding-footer;
+    border-top: $border-top-footer;
+    color: $color-footer;
+
+    p {
+        text-align: $text-align-footer;
+        a {
+            color: $color-links;
+            &:hover {
+                text-decoration: $text-decoration-links;
+            }
+        }
+    }
+}
